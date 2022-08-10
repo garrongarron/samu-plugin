@@ -1,0 +1,3552 @@
+# Copyright (C) 2022 Academy LMS
+# This file is distributed under the GPL-3.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: Academy LMS 1.2.13\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/academy\n"
+"POT-Creation-Date: 2022-06-26T05:21:52+00:00\n"
+"PO-Revision-Date: 2022-08-09 10:51-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1.1\n"
+"X-Domain: academy\n"
+
+#. Plugin Name of the plugin
+#. Author of the plugin
+#: includes/admin/menu.php:23 includes/customizer/register.php:16
+#: assets/js/backend.js:382
+msgid "Academy LMS"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "http://academylms.net"
+msgstr ""
+
+#. Description of the plugin
+msgid "Share your knowledge by launching an online course."
+msgstr ""
+
+#: includes/admin.php:36
+msgid "Academy Frontend Dashboard Page"
+msgstr ""
+
+#: includes/admin.php:39
+msgid "Academy Course Page"
+msgstr ""
+
+#: includes/admin.php:42
+msgid "Academy Instructor Registration Page"
+msgstr ""
+
+#: includes/admin.php:45
+msgid "Academy Student Registration Page"
+msgstr ""
+
+#: includes/admin/ajax.php:169
+msgid "Failed to update withdraw status"
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:332
+msgid ""
+"We can't detect any product information. This is most probably because you "
+"have not included the code snippet."
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:821
+#: assets/js/backend.js:382
+msgid "logo"
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:827
+msgid "Hey"
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:830
+msgid ""
+"Never miss an\n"
+"            important update - opt in to our security and feature updates "
+"notifications, and\n"
+"            non-sensitive diagnostic tracking."
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:838
+msgid "What we collect?"
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:840
+msgid ""
+"We collect non-sensitive diagnostic data and plugin usage information. Your "
+"site URL, WordPress & PHP version, plugins & themes and email address to "
+"send you the discount coupon. This data lets us make sure this plugin always "
+"stays compatible with the most popular plugins and themes. No spam, I "
+"promise."
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:844
+msgid "Allow"
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:846
+msgid "Do Not Allow"
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:892
+msgid ""
+"Thank you for opting in to tracking. Would you like to receive occasional "
+"news about this %s, including details of new features and special offers?"
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:905
+msgid "Yes Please"
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:907
+msgid "No Thank You"
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:936
+msgid "Quick Feedback"
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:937
+msgid ""
+"If you have a moment, please share why you are deactivating Academy LMS:"
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:939
+msgid "Set up is too difficult"
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:940
+msgid "Lack of documentation"
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:941
+msgid "Not the features I wanted"
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:942
+msgid "Found a better plugin"
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:943
+msgid "Installed by mistake"
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:944
+msgid "It's a temporary deactivation"
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:945
+msgid "Other"
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:947
+msgid "Details (optional)"
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:988
+msgid "Submitting form"
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:1149
+msgid "Submit & Deactivate"
+msgstr ""
+
+#: includes/admin/alms-dev/plugin-usage-tracker.php:1151
+msgid "Skip & Deactivate"
+msgstr ""
+
+#: includes/admin/course.php:34 includes/admin/course.php:84
+#: includes/admin/registration.php:55 includes/admin/registration.php:97
+#: includes/shortcode/academy-login.php:38
+msgid "Security check"
+msgstr ""
+
+#: includes/admin/notice.php:29
+msgid "Enable"
+msgstr ""
+
+#: includes/admin/permalink-settings.php:28
+msgid "Academy Course permalinks"
+msgstr ""
+
+#: includes/admin/permalink-settings.php:32
+msgid "Course category base"
+msgstr ""
+
+#: includes/admin/permalink-settings.php:39
+msgid "Course tag base"
+msgstr ""
+
+#: includes/admin/permalink-settings.php:52 includes/helper.php:584
+msgctxt "slug"
+msgid "course-category"
+msgstr ""
+
+#: includes/admin/permalink-settings.php:61 includes/helper.php:585
+msgctxt "slug"
+msgid "course-tag"
+msgstr ""
+
+#. translators: %s: Home URL
+#: includes/admin/permalink-settings.php:70
+msgid ""
+"If you like, you may enter custom structures for your course URLs here. For "
+"example, using <code>course</code> would make your course links like <code>"
+"%scourse/sample-course/</code>. This setting affects course URLs only, not "
+"things such as course categories."
+msgstr ""
+
+#: includes/admin/permalink-settings.php:73
+#: includes/admin/permalink-settings.php:167
+msgctxt "default-slug"
+msgid "courses"
+msgstr ""
+
+#: includes/admin/permalink-settings.php:74
+msgctxt "default-slug"
+msgid "course"
+msgstr ""
+
+#: includes/admin/permalink-settings.php:86
+msgid "Default"
+msgstr ""
+
+#: includes/admin/permalink-settings.php:91
+msgid "Courses base"
+msgstr ""
+
+#: includes/admin/permalink-settings.php:97
+msgid "Custom base"
+msgstr ""
+
+#: includes/admin/permalink-settings.php:99
+msgid ""
+"Enter a custom base to use. A base must be set or WordPress will use default "
+"instead."
+msgstr ""
+
+#: includes/admin/permalink-settings.php:157
+#: includes/admin/permalink-settings.php:160 includes/helper.php:583
+msgctxt "slug"
+msgid "course"
+msgstr ""
+
+#: includes/admin/settings/config.php:18 assets/js/backend.js:382
+msgid "General"
+msgstr ""
+
+#: includes/admin/settings/config.php:27
+msgid "Dashboard Page"
+msgstr ""
+
+#: includes/admin/settings/config.php:37
+msgid "Load Academy Font"
+msgstr ""
+
+#: includes/admin/settings/config.php:38
+msgid ""
+"if you want to apply your theme font with your theme own style then disable "
+"it."
+msgstr ""
+
+#: includes/admin/settings/config.php:45
+msgid "Design"
+msgstr ""
+
+#: includes/admin/settings/config.php:57
+msgid "Course Single Styles"
+msgstr ""
+
+#: includes/admin/settings/config.php:58
+msgid "Set course single page spacing and colors."
+msgstr ""
+
+#: includes/admin/settings/config.php:63
+msgid "Course Archive Settings"
+msgstr ""
+
+#: includes/admin/settings/config.php:64
+msgid "Shorting or hide filter and manage query settings."
+msgstr ""
+
+#: includes/admin/settings/config.php:69
+msgid "Course Archive Styles"
+msgstr ""
+
+#: includes/admin/settings/config.php:70
+msgid "Set course archive page spacing and colors."
+msgstr ""
+
+#: includes/admin/settings/config.php:79 includes/database.php:22
+#: templates/single-course-reviews.php:36
+msgid "Course"
+msgstr ""
+
+#: includes/admin/settings/config.php:88
+msgid "Course Page"
+msgstr ""
+
+#: includes/admin/settings/config.php:98
+msgid "Course Archive Options"
+msgstr ""
+
+#: includes/admin/settings/config.php:99
+msgid "Set Course Archive Page filter, color option and more."
+msgstr ""
+
+#: includes/admin/settings/config.php:108
+msgid "Course Details Options"
+msgstr ""
+
+#: includes/admin/settings/config.php:109
+msgid "Set Course Details Page color option."
+msgstr ""
+
+#: includes/admin/settings/config.php:116 includes/helper.php:70
+#: assets/js/backend.js:382
+msgid "Instructors"
+msgstr ""
+
+#: includes/admin/settings/config.php:125
+msgid "Instructor Registration Page"
+msgstr ""
+
+#: includes/admin/settings/config.php:135
+msgid "Public Profile"
+msgstr ""
+
+#: includes/admin/settings/config.php:136
+msgid "Enable Instructor Public Profile. Example: "
+msgstr ""
+
+#: includes/admin/settings/config.php:145
+msgid "Allow publishing course"
+msgstr ""
+
+#: includes/admin/settings/config.php:146
+msgid "Enable instructors to publish course directly."
+msgstr ""
+
+#: includes/admin/settings/config.php:153
+msgid "Student"
+msgstr ""
+
+#: includes/admin/settings/config.php:162
+msgid "Student Registration Page"
+msgstr ""
+
+#: includes/admin/settings/config.php:172
+msgid "Allow upload files"
+msgstr ""
+
+#: includes/admin/settings/config.php:173
+msgid "Enable student upload files."
+msgstr ""
+
+#: includes/admin/settings/config.php:183
+msgid "Woocommerce"
+msgstr ""
+
+#: includes/admin/settings/config.php:192
+msgid "Course Product"
+msgstr ""
+
+#: includes/admin/settings/config.php:193
+msgid "Hide course products from shop page"
+msgstr ""
+
+#: includes/admin/settings/config.php:202
+#: includes/admin/settings/config.php:359
+#: includes/admin/settings/config.php:369
+#: includes/admin/settings/config.php:379
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/admin/settings/config.php:203
+msgid "Enable Course Dashboard Link inside My Account Page."
+msgstr ""
+
+#: includes/admin/settings/config.php:212
+msgid "My Account Link Label"
+msgstr ""
+
+#: includes/admin/settings/config.php:213
+#: includes/admin/settings/config.php:236
+msgid "Courses Dashboard"
+msgstr ""
+
+#: includes/admin/settings/config.php:224
+msgid "Course Dashboard Button"
+msgstr ""
+
+#: includes/admin/settings/config.php:225
+msgid ""
+"Enable/Disable Course Dashboard Button (it will be showing inside order "
+"details page)"
+msgstr ""
+
+#: includes/admin/settings/config.php:234
+msgid "Course Dashboard Button Text"
+msgstr ""
+
+#: includes/admin/settings/config.php:235
+msgid ""
+"Add Course Dashboard Button Text (it will be showing inside order details "
+"page)"
+msgstr ""
+
+#: includes/admin/settings/config.php:246
+msgid "Earning"
+msgstr ""
+
+#: includes/admin/settings/config.php:255
+msgid "Enable Earning"
+msgstr ""
+
+#: includes/admin/settings/config.php:256
+msgid "If disabled, the Admin will receive 100% of the earning"
+msgstr ""
+
+#: includes/admin/settings/config.php:265
+msgid "Admin Commission Percentage"
+msgstr ""
+
+#: includes/admin/settings/config.php:266
+msgid ""
+"Define the commission of the Admin from each sale.(after deducting fees)"
+msgstr ""
+
+#: includes/admin/settings/config.php:278
+msgid "Instructor Commission Percentage"
+msgstr ""
+
+#: includes/admin/settings/config.php:279
+msgid ""
+"Define the commission for instructors from each sale.(after deducting fees)"
+msgstr ""
+
+#: includes/admin/settings/config.php:291
+msgid "Eanable Fee Deduction"
+msgstr ""
+
+#: includes/admin/settings/config.php:292
+msgid ""
+"Fees are charged from the entire sales amount. The remaining amount will be "
+"divided among admin and instructors."
+msgstr ""
+
+#: includes/admin/settings/config.php:301
+msgid "Fee Deduction Name"
+msgstr ""
+
+#: includes/admin/settings/config.php:313
+msgid "Fee Deduction Amount"
+msgstr ""
+
+#: includes/admin/settings/config.php:325
+msgid "Fee Deduction Type"
+msgstr ""
+
+#: includes/admin/settings/config.php:328
+msgid "Percent"
+msgstr ""
+
+#: includes/admin/settings/config.php:329
+msgid "Fixed"
+msgstr ""
+
+#: includes/admin/settings/config.php:340 assets/js/frontend.js:1
+msgid "Withdrawal"
+msgstr ""
+
+#: includes/admin/settings/config.php:349
+msgid "Minimum Withdraw Amount"
+msgstr ""
+
+#: includes/admin/settings/config.php:350
+msgid ""
+"Instructors should earn equal or above this amount to make a withdraw "
+"request."
+msgstr ""
+
+#: includes/admin/settings/config.php:360
+msgid "Enable PayPal"
+msgstr ""
+
+#: includes/admin/settings/config.php:370
+msgid "Enable E-Check"
+msgstr ""
+
+#: includes/admin/settings/config.php:380
+msgid "Enable Bank Transfer"
+msgstr ""
+
+#: includes/admin/settings/config.php:389
+msgid "Instruction"
+msgstr ""
+
+#: includes/admin/settings/config.php:390
+msgid "Write instruction for the instructor to fill bank information"
+msgstr ""
+
+#: includes/admin/views/user-profile-fields.php:12
+msgid "Academy Info"
+msgstr ""
+
+#: includes/admin/views/user-profile-fields.php:15
+msgid "Profile Designation"
+msgstr ""
+
+#: includes/admin/views/user-profile-fields.php:21
+msgid "Profile Bio"
+msgstr ""
+
+#: includes/admin/views/user-profile-fields.php:35
+msgid ""
+"Share a little biographical information to fill out your profile. This may "
+"be shown publicly."
+msgstr ""
+
+#: includes/admin/views/user-profile-fields.php:40
+msgid "Profile Photo"
+msgstr ""
+
+#: includes/admin/views/user-profile-fields.php:52
+msgid "Remove this image"
+msgstr ""
+
+#: includes/admin/views/user-profile-fields.php:53
+msgid "Upload"
+msgstr ""
+
+#: includes/api/controller/course.php:77 includes/api/lessons.php:51
+#: includes/api/question-answer.php:1513
+msgid "The password for the post if it is password protected."
+msgstr ""
+
+#: includes/api/controller/course.php:87 includes/api/controller/course.php:124
+#: includes/api/controller/course.php:143
+#: includes/api/controller/course.php:2127 includes/api/lessons.php:62
+msgid "Unique identifier for the object."
+msgstr ""
+
+#: includes/api/controller/course.php:111 includes/api/lessons.php:86
+#: includes/api/question-answer.php:99
+msgid "Whether to bypass Trash and force deletion."
+msgstr ""
+
+#: includes/api/controller/course.php:172 includes/api/lessons.php:100
+msgid "Sorry, you are not allowed to edit posts in this post type."
+msgstr ""
+
+#: includes/api/controller/course.php:194
+msgid "You need to define a search term to order by relevance."
+msgstr ""
+
+#: includes/api/controller/course.php:203
+msgid "You need to define an include parameter to order by include."
+msgstr ""
+
+#: includes/api/controller/course.php:383
+msgid "The page number requested is larger than the number of pages available."
+msgstr ""
+
+#: includes/api/controller/course.php:427 includes/api/question-answer.php:311
+#: includes/api/question-answer.php:669
+msgid "Invalid post ID."
+msgstr ""
+
+#: includes/api/controller/course.php:460
+msgid "Sorry, you are not allowed to edit this post."
+msgstr ""
+
+#: includes/api/controller/course.php:470
+msgid "Incorrect post password."
+msgstr ""
+
+#: includes/api/controller/course.php:556
+#: includes/api/controller/course.php:599
+msgid "Cannot create existing post."
+msgstr ""
+
+#: includes/api/controller/course.php:563
+#: includes/api/controller/course.php:571
+msgid "Sorry, you are not allowed to create posts as this user."
+msgstr ""
+
+#: includes/api/controller/course.php:579
+msgid "Sorry, you are not allowed to assign the provided terms."
+msgstr ""
+
+#: includes/api/controller/course.php:725
+msgid "Sorry, you are not allowed to update posts as this user."
+msgstr ""
+
+#: includes/api/controller/course.php:846
+#: includes/api/controller/course.php:894
+msgid "Sorry, you are not allowed to delete this post."
+msgstr ""
+
+#. translators: %s: force=true
+#: includes/api/controller/course.php:918
+msgid "The post does not support trashing. Set '%s' to delete."
+msgstr ""
+
+#: includes/api/controller/course.php:927
+msgid "The post has already been deleted."
+msgstr ""
+
+#: includes/api/controller/course.php:942
+msgid "The post cannot be deleted."
+msgstr ""
+
+#: includes/api/controller/course.php:1187
+msgid "Invalid author ID."
+msgstr ""
+
+#: includes/api/controller/course.php:1204
+msgid "A post can not be sticky and have a password."
+msgstr ""
+
+#: includes/api/controller/course.php:1212
+msgid "A sticky post can not be password protected."
+msgstr ""
+
+#: includes/api/controller/course.php:1223
+msgid "A password protected post can not be set to sticky."
+msgstr ""
+
+#: includes/api/controller/course.php:1239
+msgid "Invalid post parent ID."
+msgstr ""
+
+#: includes/api/controller/course.php:1326
+msgid "Sorry, you are not allowed to create private posts in this post type."
+msgstr ""
+
+#: includes/api/controller/course.php:1336
+msgid "Sorry, you are not allowed to publish posts in this post type."
+msgstr ""
+
+#: includes/api/controller/course.php:1369
+msgid "Invalid featured media ID."
+msgstr ""
+
+#. translators: 1: Parameter, 2: List of valid values.
+#: includes/api/controller/course.php:1415
+msgid "%1$s is not one of %2$s."
+msgstr ""
+
+#: includes/api/controller/course.php:2095
+msgid "The date the object was published, in the site's timezone."
+msgstr ""
+
+#: includes/api/controller/course.php:2101
+msgid "The date the object was published, as GMT."
+msgstr ""
+
+#: includes/api/controller/course.php:2107
+msgid "The globally unique identifier for the object."
+msgstr ""
+
+#: includes/api/controller/course.php:2113
+msgid "GUID for the object, as it exists in the database."
+msgstr ""
+
+#: includes/api/controller/course.php:2119
+msgid "GUID for the object, transformed for display."
+msgstr ""
+
+#: includes/api/controller/course.php:2133
+msgid "URL to the object."
+msgstr ""
+
+#: includes/api/controller/course.php:2140
+msgid "The date the object was last modified, in the site's timezone."
+msgstr ""
+
+#: includes/api/controller/course.php:2147
+msgid "The date the object was last modified, as GMT."
+msgstr ""
+
+#: includes/api/controller/course.php:2154
+msgid "An alphanumeric identifier for the object unique to its type."
+msgstr ""
+
+#: includes/api/controller/course.php:2162
+msgid "A named status for the object."
+msgstr ""
+
+#: includes/api/controller/course.php:2171
+msgid "Type of Post for the object."
+msgstr ""
+
+#: includes/api/controller/course.php:2177
+msgid "A password to protect access to the content and excerpt."
+msgstr ""
+
+#: includes/api/controller/course.php:2187
+msgid "Permalink template for the object."
+msgstr ""
+
+#: includes/api/controller/course.php:2194
+msgid "Slug automatically generated from the object title."
+msgstr ""
+
+#: includes/api/controller/course.php:2203
+msgid "The ID for the parent of the object."
+msgstr ""
+
+#: includes/api/controller/course.php:2264
+msgid "The title for the object."
+msgstr ""
+
+#: includes/api/controller/course.php:2273
+msgid "Title for the object, as it exists in the database."
+msgstr ""
+
+#: includes/api/controller/course.php:2278
+msgid "HTML title for the object, transformed for display."
+msgstr ""
+
+#: includes/api/controller/course.php:2289
+msgid "The content for the object."
+msgstr ""
+
+#: includes/api/controller/course.php:2298
+msgid "Content for the object, as it exists in the database."
+msgstr ""
+
+#: includes/api/controller/course.php:2303
+msgid "HTML content for the object, transformed for display."
+msgstr ""
+
+#: includes/api/controller/course.php:2309
+msgid "Version of the content block format used by the object."
+msgstr ""
+
+#: includes/api/controller/course.php:2315
+msgid "Whether the content is protected with a password."
+msgstr ""
+
+#: includes/api/controller/course.php:2326
+msgid "The ID for the author of the object."
+msgstr ""
+
+#: includes/api/controller/course.php:2334
+msgid "The excerpt for the object."
+msgstr ""
+
+#: includes/api/controller/course.php:2343
+msgid "Excerpt for the object, as it exists in the database."
+msgstr ""
+
+#: includes/api/controller/course.php:2348
+msgid "HTML excerpt for the object, transformed for display."
+msgstr ""
+
+#: includes/api/controller/course.php:2354
+msgid "Whether the excerpt is protected with a password."
+msgstr ""
+
+#: includes/api/controller/course.php:2365
+msgid "The ID of the featured media for the object."
+msgstr ""
+
+#: includes/api/controller/course.php:2373
+msgid "Whether or not comments are open on the object."
+msgstr ""
+
+#: includes/api/controller/course.php:2379
+msgid "Whether or not the object can be pinged."
+msgstr ""
+
+#: includes/api/controller/course.php:2388
+msgid "The order of the object in relation to other object of its type."
+msgstr ""
+
+#: includes/api/controller/course.php:2399
+msgid "The format for the object."
+msgstr ""
+
+#: includes/api/controller/course.php:2415
+msgid "Whether or not the object should be treated as sticky."
+msgstr ""
+
+#: includes/api/controller/course.php:2422
+msgid "The theme file to use to display the object."
+msgstr ""
+
+#. translators: 1: The taxonomy name, 2: The property name, either 'rest_base' or 'name', 3: The conflicting value.
+#: includes/api/controller/course.php:2441
+msgid ""
+"The \"%1$s\" taxonomy \"%2$s\" property (%3$s) conflicts with an existing "
+"property on the REST API Posts Controller. Specify a custom \"rest_base\" "
+"when registering the taxonomy to avoid this error."
+msgstr ""
+
+#. translators: %s: Taxonomy name.
+#: includes/api/controller/course.php:2452
+msgid "The terms assigned to the object in the %s taxonomy."
+msgstr ""
+
+#. translators: %s: register_rest_field
+#: includes/api/controller/course.php:2489
+msgid "Please use %s to add new schema properties."
+msgstr ""
+
+#: includes/api/controller/course.php:2516
+msgid "The current user can publish this post."
+msgstr ""
+
+#: includes/api/controller/course.php:2532
+msgid "The current user can post unfiltered HTML markup and JavaScript."
+msgstr ""
+
+#: includes/api/controller/course.php:2549
+msgid "The current user can sticky this post."
+msgstr ""
+
+#: includes/api/controller/course.php:2565
+msgid "The current user can change the author on this post."
+msgstr ""
+
+#. translators: %s: Taxonomy name.
+#: includes/api/controller/course.php:2584
+msgid "The current user can assign terms in the %s taxonomy."
+msgstr ""
+
+#. translators: %s: Taxonomy name.
+#: includes/api/controller/course.php:2586
+msgid "The current user can create terms in the %s taxonomy."
+msgstr ""
+
+#: includes/api/controller/course.php:2639
+msgid "Limit response to posts published after a given ISO8601 compliant date."
+msgstr ""
+
+#: includes/api/controller/course.php:2646
+msgid "Limit result set to posts assigned to specific authors."
+msgstr ""
+
+#: includes/api/controller/course.php:2654
+msgid "Ensure result set excludes posts assigned to specific authors."
+msgstr ""
+
+#: includes/api/controller/course.php:2664
+msgid ""
+"Limit response to posts published before a given ISO8601 compliant date."
+msgstr ""
+
+#: includes/api/controller/course.php:2670
+#: includes/api/controller/terms.php:995 includes/api/question-answer.php:1422
+msgid "Ensure result set excludes specific IDs."
+msgstr ""
+
+#: includes/api/controller/course.php:2679
+#: includes/api/controller/terms.php:1004 includes/api/question-answer.php:1431
+msgid "Limit result set to specific IDs."
+msgstr ""
+
+#: includes/api/controller/course.php:2689
+msgid "Limit result set to posts with a specific menu_order value."
+msgstr ""
+
+#: includes/api/controller/course.php:2695
+#: includes/api/controller/terms.php:1014 includes/api/question-answer.php:1440
+msgid "Offset the result set by a specific number of items."
+msgstr ""
+
+#: includes/api/controller/course.php:2700
+#: includes/api/controller/terms.php:1020 includes/api/question-answer.php:1445
+msgid "Order sort attribute ascending or descending."
+msgstr ""
+
+#: includes/api/controller/course.php:2707
+msgid "Sort collection by object attribute."
+msgstr ""
+
+#: includes/api/controller/course.php:2732
+msgid "Limit result set to items with particular parent IDs."
+msgstr ""
+
+#: includes/api/controller/course.php:2740
+msgid "Limit result set to all items except those of a particular parent ID."
+msgstr ""
+
+#: includes/api/controller/course.php:2750
+msgid "Limit result set to posts with one or more specific slugs."
+msgstr ""
+
+#: includes/api/controller/course.php:2760
+msgid "Limit result set to posts assigned one or more statuses."
+msgstr ""
+
+#: includes/api/controller/course.php:2773
+msgid "Limit result set based on relationship between multiple taxonomies."
+msgstr ""
+
+#. translators: %s: Taxonomy name.
+#: includes/api/controller/course.php:2784
+msgid ""
+"Limit result set to all items that have the specified term assigned in the "
+"%s taxonomy."
+msgstr ""
+
+#. translators: %s: Taxonomy name.
+#: includes/api/controller/course.php:2794
+msgid ""
+"Limit result set to all items except those that have the specified term "
+"assigned in the %s taxonomy."
+msgstr ""
+
+#: includes/api/controller/course.php:2805
+msgid "Limit result set to items that are sticky."
+msgstr ""
+
+#: includes/api/controller/course.php:2861
+msgid "Status is forbidden."
+msgstr ""
+
+#: includes/api/controller/terms.php:93 includes/api/controller/terms.php:914
+msgid "Unique identifier for the term."
+msgstr ""
+
+#: includes/api/controller/terms.php:119
+msgid "Required to be true, as terms do not support trashing."
+msgstr ""
+
+#: includes/api/controller/terms.php:146
+msgid "Sorry, you are not allowed to edit terms in this taxonomy."
+msgstr ""
+
+#: includes/api/controller/terms.php:315
+msgid "Term does not exist."
+msgstr ""
+
+#: includes/api/controller/terms.php:353 includes/api/controller/terms.php:533
+msgid "Sorry, you are not allowed to edit this term."
+msgstr ""
+
+#: includes/api/controller/terms.php:401
+msgid "Sorry, you are not allowed to create terms in this taxonomy."
+msgstr ""
+
+#: includes/api/controller/terms.php:422 includes/api/controller/terms.php:559
+msgid "Cannot set parent term, taxonomy is not hierarchical."
+msgstr ""
+
+#: includes/api/controller/terms.php:432 includes/api/controller/terms.php:569
+msgid "Parent term does not exist."
+msgstr ""
+
+#: includes/api/controller/terms.php:634
+msgid "Sorry, you are not allowed to delete this term."
+msgstr ""
+
+#. translators: %s: force=true
+#: includes/api/controller/terms.php:663
+msgid "Terms do not support trashing. Set '%s' to delete."
+msgstr ""
+
+#: includes/api/controller/terms.php:677
+msgid "The term cannot be deleted."
+msgstr ""
+
+#: includes/api/controller/terms.php:920
+msgid "Number of published posts for the term."
+msgstr ""
+
+#: includes/api/controller/terms.php:926
+msgid "HTML description of the term."
+msgstr ""
+
+#: includes/api/controller/terms.php:931
+msgid "URL of the term."
+msgstr ""
+
+#: includes/api/controller/terms.php:938
+msgid "HTML title for the term."
+msgstr ""
+
+#: includes/api/controller/terms.php:947
+msgid "An alphanumeric identifier for the term unique to its type."
+msgstr ""
+
+#: includes/api/controller/terms.php:955
+msgid "Type attribution for the term."
+msgstr ""
+
+#: includes/api/controller/terms.php:968
+msgid "The parent term ID."
+msgstr ""
+
+#: includes/api/controller/terms.php:1030
+msgid "Sort collection by term attribute."
+msgstr ""
+
+#: includes/api/controller/terms.php:1046
+msgid "Whether to hide terms not assigned to any posts."
+msgstr ""
+
+#: includes/api/controller/terms.php:1053
+msgid "Limit result set to terms assigned to a specific parent."
+msgstr ""
+
+#: includes/api/controller/terms.php:1059
+msgid "Limit result set to terms assigned to a specific post."
+msgstr ""
+
+#: includes/api/controller/terms.php:1065
+msgid "Limit result set to terms with one or more specific slugs."
+msgstr ""
+
+#. translators: %s: Custom field key.
+#: includes/api/meta/abstract-course-meta-fields.php:162
+#: includes/api/meta/abstract-course-meta-fields.php:179
+msgid ""
+"The %s property has an invalid stored value, and cannot be updated to null."
+msgstr ""
+
+#. translators: %s: Custom field key.
+#: includes/api/meta/abstract-course-meta-fields.php:223
+#: includes/api/meta/abstract-course-meta-fields.php:269
+#: includes/api/meta/abstract-course-meta-fields.php:368
+msgid "Sorry, you are not allowed to edit the %s custom field."
+msgstr ""
+
+#: includes/api/meta/abstract-course-meta-fields.php:238
+msgid "Could not delete meta value from database."
+msgstr ""
+
+#. translators: %s: Custom field key.
+#: includes/api/meta/abstract-course-meta-fields.php:324
+#: includes/api/meta/abstract-course-meta-fields.php:338
+#: includes/api/meta/abstract-course-meta-fields.php:390
+msgid "Could not update the meta value of %s in database."
+msgstr ""
+
+#: includes/api/meta/abstract-course-meta-fields.php:507
+msgid "Meta fields."
+msgstr ""
+
+#: includes/api/question-answer.php:69 includes/api/question-answer.php:1225
+msgid "Unique identifier for the comment."
+msgstr ""
+
+#: includes/api/question-answer.php:80 includes/api/question-answer.php:102
+msgid ""
+"The password for the parent post of the comment (if the post is password "
+"protected)."
+msgstr ""
+
+#: includes/api/question-answer.php:291
+msgid "Invalid comment ID."
+msgstr ""
+
+#: includes/api/question-answer.php:337
+msgid "Sorry, you are not allowed to edit comments."
+msgstr ""
+
+#: includes/api/question-answer.php:347
+msgid "Sorry, you are not allowed to read the post for this comment."
+msgstr ""
+
+#: includes/api/question-answer.php:410
+msgid "Cannot create existing comment."
+msgstr ""
+
+#: includes/api/question-answer.php:419
+msgid "Cannot create a comment with that type."
+msgstr ""
+
+#: includes/api/question-answer.php:438 includes/api/question-answer.php:694
+msgid "Invalid comment content."
+msgstr ""
+
+#: includes/api/question-answer.php:468
+msgid "Creating a comment requires valid author name and email values."
+msgstr ""
+
+#: includes/api/question-answer.php:492 includes/api/question-answer.php:707
+msgid "Comment field exceeds maximum length allowed."
+msgstr ""
+
+#: includes/api/question-answer.php:545
+msgid "Creating comment failed."
+msgstr ""
+
+#: includes/api/question-answer.php:625
+msgid "Sorry, you are not allowed to edit this comment."
+msgstr ""
+
+#: includes/api/question-answer.php:652
+msgid "Sorry, you are not allowed to change the comment type."
+msgstr ""
+
+#: includes/api/question-answer.php:682
+msgid "Updating comment status failed."
+msgstr ""
+
+#: includes/api/question-answer.php:717
+msgid "Updating comment failed."
+msgstr ""
+
+#: includes/api/question-answer.php:775
+msgid "Sorry, you are not allowed to delete this comment."
+msgstr ""
+
+#. translators: %s: force=true
+#: includes/api/question-answer.php:828
+msgid "The comment does not support trashing. Set '%s' to delete."
+msgstr ""
+
+#: includes/api/question-answer.php:836
+msgid "The comment has already been trashed."
+msgstr ""
+
+#: includes/api/question-answer.php:849
+msgid "The comment cannot be deleted."
+msgstr ""
+
+#: includes/api/question-answer.php:1148
+msgid "Invalid comment author ID."
+msgstr ""
+
+#: includes/api/question-answer.php:1231
+msgid "The ID of the user object, if author was a user."
+msgstr ""
+
+#: includes/api/question-answer.php:1236
+msgid "Email address for the comment author."
+msgstr ""
+
+#: includes/api/question-answer.php:1246
+msgid "IP address for the comment author."
+msgstr ""
+
+#: includes/api/question-answer.php:1252
+msgid "Display name for the comment author."
+msgstr ""
+
+#: includes/api/question-answer.php:1260
+msgid "URL for the comment author."
+msgstr ""
+
+#: includes/api/question-answer.php:1266
+msgid "User agent for the comment author."
+msgstr ""
+
+#: includes/api/question-answer.php:1274
+msgid "The content for the comment."
+msgstr ""
+
+#: includes/api/question-answer.php:1283
+msgid "Content for the comment, as it exists in the database."
+msgstr ""
+
+#: includes/api/question-answer.php:1288
+msgid "HTML content for the comment, transformed for display."
+msgstr ""
+
+#: includes/api/question-answer.php:1296
+msgid "The date the comment was published, in the site's timezone."
+msgstr ""
+
+#: includes/api/question-answer.php:1302
+msgid "The date the comment was published, as GMT."
+msgstr ""
+
+#: includes/api/question-answer.php:1308
+msgid "URL to the comment."
+msgstr ""
+
+#: includes/api/question-answer.php:1315
+msgid "The ID for the parent of the comment."
+msgstr ""
+
+#: includes/api/question-answer.php:1321
+msgid "The ID of the associated post object."
+msgstr ""
+
+#: includes/api/question-answer.php:1327
+msgid "State of the comment."
+msgstr ""
+
+#: includes/api/question-answer.php:1335
+msgid "Type of the comment."
+msgstr ""
+
+#. translators: %d: Avatar image size in pixels.
+#: includes/api/question-answer.php:1351
+msgid "Avatar URL with image size of %d pixels."
+msgstr ""
+
+#: includes/api/question-answer.php:1359
+msgid "Avatar URLs for the comment author."
+msgstr ""
+
+#: includes/api/question-answer.php:1387
+msgid ""
+"Limit response to comments published after a given ISO8601 compliant date."
+msgstr ""
+
+#: includes/api/question-answer.php:1393
+msgid ""
+"Limit result set to comments assigned to specific user IDs. Requires "
+"authorization."
+msgstr ""
+
+#: includes/api/question-answer.php:1401
+msgid ""
+"Ensure result set excludes comments assigned to specific user IDs. Requires "
+"authorization."
+msgstr ""
+
+#: includes/api/question-answer.php:1410
+msgid ""
+"Limit result set to that from a specific author email. Requires "
+"authorization."
+msgstr ""
+
+#: includes/api/question-answer.php:1416
+msgid ""
+"Limit response to comments published before a given ISO8601 compliant date."
+msgstr ""
+
+#: includes/api/question-answer.php:1455
+msgid "Sort collection by comment attribute."
+msgstr ""
+
+#: includes/api/question-answer.php:1471
+msgid "Limit result set to comments of specific parent IDs."
+msgstr ""
+
+#: includes/api/question-answer.php:1480
+msgid "Ensure result set excludes specific parent IDs."
+msgstr ""
+
+#: includes/api/question-answer.php:1489
+msgid "Limit result set to comments assigned to specific post IDs."
+msgstr ""
+
+#: includes/api/question-answer.php:1498
+msgid ""
+"Limit result set to comments assigned a specific status. Requires "
+"authorization."
+msgstr ""
+
+#: includes/api/question-answer.php:1506
+msgid ""
+"Limit result set to comments assigned a specific type. Requires "
+"authorization."
+msgstr ""
+
+#: includes/assets.php:203
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: includes/classes/role.php:11
+msgid "Academy Student"
+msgstr ""
+
+#: includes/classes/role.php:30
+msgid "Academy Instructor"
+msgstr ""
+
+#: includes/customizer/sanitize.php:12 includes/customizer/sanitize.php:21
+#: includes/customizer/sanitize.php:29
+msgid "Expected array."
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:25
+msgid "Course Archive"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:42
+msgid "Archive Options"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:63
+msgid "Course Layout"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:64
+msgid "Choose Your Archive Course Layout."
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:66
+msgid "None"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:67
+msgid "Left Sidebar"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:68
+msgid "Right Sidebar"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:113
+msgid "Course Filters"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:156
+msgid "Courses Per Row"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:177
+msgid "Courses Per Page"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:198
+msgid "Course Reviews"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:199
+msgid "ON/OFF Course Reviews inside course grid or archive page."
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:201
+#: includes/customizer/section/single-course.php:66
+#: includes/customizer/section/single-course.php:89
+#: includes/customizer/section/single-course.php:112
+#: includes/customizer/section/single-course.php:135
+#: includes/customizer/section/single-course.php:158
+msgid "ON"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:202
+#: includes/customizer/section/single-course.php:67
+#: includes/customizer/section/single-course.php:90
+#: includes/customizer/section/single-course.php:113
+#: includes/customizer/section/single-course.php:136
+#: includes/customizer/section/single-course.php:159
+msgid "OFF"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:219
+msgid "Header Options"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:251
+#: includes/customizer/section/archive-course.php:464
+#: includes/customizer/section/archive-course.php:1239
+#: includes/customizer/section/single-course.php:1312
+#: includes/customizer/section/single-course.php:1558
+#: includes/customizer/section/single-course.php:1766
+#: includes/customizer/section/single-course.php:2243
+msgid "Background Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:278
+#: includes/customizer/section/single-course.php:1585
+#: includes/customizer/section/single-course.php:1810
+#: includes/customizer/section/single-course.php:2270
+msgid "Padding"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:305
+#: includes/customizer/section/single-course.php:1612
+#: includes/customizer/section/single-course.php:1837
+msgid "Margin"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:353
+msgid "Course Count Text Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:401
+msgid "Sorting Background Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:424
+msgid "Sorting Text Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:441
+msgid "Course Card"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:491
+msgid "Card Content Padding"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:539
+msgid "Wishlist Background Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:562
+msgid "Wishlist Icon Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:589
+msgid "Wishlist Icon Padding"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:637
+#: includes/customizer/section/single-course.php:311
+msgid "Category Text Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:669
+msgid "Title Text Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:701
+#: includes/customizer/section/single-course.php:1681
+msgid "Author Text Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:741
+msgid "Footer Separator Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:768
+msgid "Footer Content Padding"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:817
+#: includes/customizer/section/single-course.php:486
+#: includes/customizer/section/single-course.php:1424
+#: includes/customizer/section/single-course.php:1658
+msgid "Rating Icon Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:840
+#: includes/customizer/section/single-course.php:509
+#: includes/customizer/section/single-course.php:1635
+msgid "Rating Text Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:863
+msgid "Rating Count Text Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:895
+msgid "Price Text Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:918
+#: includes/customizer/section/single-course.php:2377
+msgid "Normal Price Text Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:941
+#: includes/customizer/section/single-course.php:2400
+msgid "Sale Price Text Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:957
+msgid "Course Pagination"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:984
+msgid "Button Padding"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:1011
+msgid "Button Margin"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:1034
+msgid "Button Background Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:1057
+msgid "Button Text Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:1105
+msgid "Active Button Background Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:1128
+msgid "Active Button Text Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:1168
+msgid "Next/Prev Button Background Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:1191
+msgid "Next/Prev Button Text Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:1207
+msgid "Course Sidebar"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:1283
+msgid "Sidebar Padding"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:1326
+msgid "Filter Item Margin"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:1365
+msgid "Searchbox Background Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:1388
+msgid "SearchBox Placeholder Text Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:1411
+msgid "SearchBox Text Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:1451
+msgid "Filter Heading Text Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:1474
+msgid "Filter Checkbox Background Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:1497
+msgid "Filter Checkbox Border Color"
+msgstr ""
+
+#: includes/customizer/section/archive-course.php:1520
+msgid "Filter Item Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:25
+msgid "Course Single"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:42
+msgid "Course Single/Details Settings"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:63
+msgid "Instructor Reviews"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:64
+msgid "ON/OFF Instructor Reviews Inside Course Detials"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:86
+msgid "Total Enroll Count"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:87
+msgid "ON/OFF Total Enroll Count Inside Course Detials"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:109
+msgid "Student Reviews"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:110
+msgid "ON/OFF Student Reviews Inside Course Detials"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:132
+msgid "Topics First Item Open"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:133
+msgid "ON/OFF Topic first item by default open Inside Course Detials"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:155
+msgid "Lesson Preview Image"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:156
+msgid "ON/OFF Lesson Preview Image Inside Topic Lists"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:176
+msgid "General Options"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:208
+msgid "Course Wrapper Background Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:235
+msgid "Course Wrapper Padding"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:262
+msgid "Course Wrapper Margin"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:343
+msgid "Course Title Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:359
+msgid "Instructor Area"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:391
+msgid "Instructor Title Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:414
+msgid "Instructor Name Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:463
+msgid "Review Title Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:536
+msgid "Instructor Padding"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:552
+msgid "Course Content"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:584
+msgid "Description Heading Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:607
+#: includes/customizer/section/single-course.php:701
+#: includes/customizer/section/single-course.php:841
+#: includes/customizer/section/single-course.php:1727
+msgid "Description Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:623
+msgid "Benefits"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:655
+msgid "Benefits Heading Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:678
+#: includes/customizer/section/single-course.php:818
+msgid "Description Icon Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:717 assets/js/backend.js:382
+msgid "Additional Info"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:749
+msgid "Tab Heading Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:772
+msgid "Tab Heading Active Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:795
+msgid "Tab Heading Active Border Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:857
+msgid "Curriculam/Topic"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:889
+#: includes/customizer/section/single-course.php:1236
+#: includes/customizer/section/single-course.php:2310
+msgid "Heading Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:916
+msgid "Heading Text Margin"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:956
+msgid "Accordian Title Background Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:983
+msgid "Accordian Title Padding"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1006
+msgid "Accordian Title Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1029
+msgid "Accordian Title Icon Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1069
+msgid "Accordian Content Background Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1096
+msgid "Accordian Content Padding"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1119
+msgid "Accordian Content Thumbnail Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1142
+msgid "Accordian Content Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1165
+msgid "Accordian Content Icon Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1188
+msgid "Accordian Content Separator Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1204
+msgid "Feedback"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1263
+#: includes/customizer/section/single-course.php:2337
+msgid "Heading Margin"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1335
+msgid "Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1362
+msgid "Feedback Padding"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1401
+msgid "Average Rating Number Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1464
+msgid "Progressbar Background Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1487
+msgid "Progressbar Fill Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1510
+msgid "Rating Percentage Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1526
+msgid "Review"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1704
+msgid "Date Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1743
+msgid "Review Form"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1877
+msgid "Add Review Button Background Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1900
+msgid "Add Review Button Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1923
+msgid "Add Review Button Hover Background Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1946
+msgid "Add Review Button Hover Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:1973
+msgid "Add Review Button Padding"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2013
+msgid "Icon Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2036
+msgid "Input Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2059
+msgid "Input Placeholder Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2099
+msgid "Submit Button Background Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2122
+msgid "Submit Button Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2145
+msgid "Submit Button Hover Background Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2168
+msgid "Submit Button Hover Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2195
+msgid "Submit Button Padding"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2211
+msgid "Enroll Widget"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2440
+msgid "Heading Separator Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2480
+msgid "Content Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2503
+msgid "Content Icon Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2530
+msgid "Content Item Margin"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2570
+msgid "Start Course Button Background Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2593
+msgid "Start Course Button Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2616
+msgid "Start Course Button Hover Background Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2639
+msgid "Start Course Button Hover Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2666
+msgid "Start Course Button Padding"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2693
+msgid "Start Course Button Margin"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2733
+msgid "Complete Course Button Background Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2756
+msgid "Complete Course Button Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2779
+msgid "Complete Course Button Hover Background Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2802
+msgid "Complete Course Button Hover Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2829
+msgid "Complete Course Button Padding"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2856
+msgid "Complete Course Button Margin"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2896
+msgid "Cart Button Background Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2919
+msgid "Cart Button Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2942
+msgid "Cart Button Hover Background Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2965
+msgid "Cart Button Hover Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:2992
+msgid "Cart Button Padding"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:3019
+msgid "Cart Button Margin"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:3059
+msgid "Enroll Now Button Background Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:3082
+msgid "Enroll Now Button Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:3105
+msgid "Enroll Now Button Hover Background Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:3128
+msgid "Enroll Now Button Hover Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:3155
+msgid "Enroll Now Button Padding"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:3182
+msgid "Enroll Now Button Margin"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:3222
+msgid "WishList Button Background Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:3245
+msgid "WishList Button Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:3268
+msgid "WishList Button Hover Background Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:3291
+msgid "WishList Button Hover Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:3318
+msgid "Wishlist Button Padding"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:3345
+msgid "Wishlist Button Margin"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:3385
+msgid "Share Button Background Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:3408
+msgid "Share Button Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:3431
+msgid "Share Button Hover Background Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:3454
+msgid "Share Button Hover Text Color"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:3481
+msgid "Share Button Padding"
+msgstr ""
+
+#: includes/customizer/section/single-course.php:3508
+msgid "Share Button Margin"
+msgstr ""
+
+#: includes/database.php:21 includes/installer.php:85
+#: templates/instructor/sidebar.php:28 templates/instructor/tab-navbar.php:3
+#: assets/js/frontend.js:1
+msgid "Courses"
+msgstr ""
+
+#: includes/database.php:23
+msgid "Search Courses"
+msgstr ""
+
+#: includes/database.php:24
+msgid "Parent Courses:"
+msgstr ""
+
+#: includes/database.php:25
+msgid "No Courses found."
+msgstr ""
+
+#: includes/database.php:26
+msgid "No Courses found in Trash."
+msgstr ""
+
+#: includes/database.php:27
+msgid "Course archives"
+msgstr ""
+
+#: includes/frontend/ajax.php:48
+msgid "Sorry, something went wrong!"
+msgstr ""
+
+#: includes/frontend/ajax.php:79
+msgid "Access Denied"
+msgstr ""
+
+#: includes/frontend/ajax.php:119 templates/instructor/sidebar.php:10
+#: templates/loop/header.php:22 templates/single-course/header.php:12
+msgid "thumbnail"
+msgstr ""
+
+#: includes/frontend/ajax.php:135
+msgid "Total Lessons:"
+msgstr ""
+
+#: includes/frontend/ajax.php:136
+msgid "Completed Lessons:"
+msgstr ""
+
+#: includes/frontend/ajax.php:145
+msgid "%  Complete"
+msgstr ""
+
+#: includes/frontend/ajax.php:157
+msgid "You haven't enrolled course."
+msgstr ""
+
+#: includes/frontend/ajax.php:186
+msgid "You have no course on the wishlist."
+msgstr ""
+
+#: includes/frontend/ajax.php:235
+msgid "access denied"
+msgstr ""
+
+#: includes/frontend/ajax.php:292
+msgid "Successfully, updated your password."
+msgstr ""
+
+#: includes/frontend/ajax.php:295
+msgid "New Password and Confirm New password do not match equally."
+msgstr ""
+
+#: includes/frontend/ajax.php:298
+msgid "Current password is incorrect."
+msgstr ""
+
+#: includes/frontend/ajax.php:429
+msgid "Your Request withdraw method type isn't match"
+msgstr ""
+
+#: includes/frontend/ajax.php:437
+msgid "Minimum withdrawal amount is"
+msgstr ""
+
+#: includes/frontend/ajax.php:443
+msgid "Insufficient balance."
+msgstr ""
+
+#: includes/frontend/ajax.php:503
+msgid "Sorry no course found."
+msgstr ""
+
+#: includes/functions.php:12
+msgid "Academy Canvas"
+msgstr ""
+
+#: includes/functions.php:131 assets/js/backend.js:382
+msgid "Targeted Audience"
+msgstr ""
+
+#: includes/functions.php:135 assets/js/backend.js:382
+msgid "Requirements"
+msgstr ""
+
+#: includes/functions.php:139 assets/js/backend.js:382
+msgid "Materials Included"
+msgstr ""
+
+#: includes/functions.php:185
+msgid "Showing all"
+msgstr ""
+
+#: includes/functions.php:186
+msgid "results"
+msgstr ""
+
+#: includes/functions.php:192
+msgid "Default Sorting"
+msgstr ""
+
+#: includes/functions.php:195
+msgid "Order by course name"
+msgstr ""
+
+#: includes/functions.php:198
+msgid "Order by Release Date"
+msgstr ""
+
+#: includes/functions.php:201
+msgid "Order by Modified Date"
+msgstr ""
+
+#: includes/functions.php:546 assets/js/backend.js:382
+msgid "Beginner"
+msgstr ""
+
+#: includes/functions.php:547 assets/js/backend.js:382
+msgid "Intermediate"
+msgstr ""
+
+#: includes/functions.php:548
+msgid "Expert"
+msgstr ""
+
+#: includes/functions.php:566 templates/loop/price.php:13
+#: templates/single-course/enroll/content.php:17 assets/js/backend.js:382
+msgid "Free"
+msgstr ""
+
+#: includes/functions.php:567 templates/loop/price.php:11
+#: templates/single-course/enroll/content.php:14 assets/js/backend.js:382
+msgid "Paid"
+msgstr ""
+
+#: includes/helper.php:29 assets/js/backend.js:382
+msgid "Analytics"
+msgstr ""
+
+#: includes/helper.php:36 assets/js/backend.js:382 assets/js/frontend.js:1
+msgid "All Courses"
+msgstr ""
+
+#: includes/helper.php:40 assets/js/backend.js:382 assets/js/frontend.js:1
+msgid "Add New Course"
+msgstr ""
+
+#: includes/helper.php:44 templates/archive/widgets/category.php:9
+msgid "Category"
+msgstr ""
+
+#: includes/helper.php:48
+msgid "Tags"
+msgstr ""
+
+#: includes/helper.php:52 assets/js/backend.js:382 assets/js/frontend.js:1
+msgid "All Lessons"
+msgstr ""
+
+#: includes/helper.php:56 assets/js/backend.js:382 assets/js/frontend.js:1
+msgid "Add New Lesson"
+msgstr ""
+
+#: includes/helper.php:60 assets/js/backend.js:382 assets/js/frontend.js:1
+msgid "Question & Answer"
+msgstr ""
+
+#: includes/helper.php:66 assets/js/backend.js:382
+msgid "Withdraw Requests"
+msgstr ""
+
+#: includes/helper.php:74 templates/instructor/sidebar.php:32
+#: assets/js/backend.js:382
+msgid "Students"
+msgstr ""
+
+#: includes/helper.php:78 assets/js/backend.js:382 assets/js/frontend.js:1
+msgid "Settings"
+msgstr ""
+
+#. translators: %s template
+#: includes/helper.php:313
+msgid "%s does not exist."
+msgstr ""
+
+#: includes/helper.php:330
+msgid ""
+"action_args should not be overwritten when calling academy/get_template."
+msgstr ""
+
+#: includes/installer.php:51
+msgid "Hello Academy LMS!"
+msgstr ""
+
+#: includes/installer.php:52
+msgid ""
+"Welcome to Academy LMS. This is your first course. Edit or delete it, then "
+"start creating new course!"
+msgstr ""
+
+#: includes/installer.php:80 assets/js/frontend.js:1
+msgid "Dashboard"
+msgstr ""
+
+#: includes/installer.php:90
+msgid "Student Registration"
+msgstr ""
+
+#: includes/installer.php:95
+msgid "Instructor Registration"
+msgstr ""
+
+#: includes/integration/woocommerce.php:109
+msgid "For Academy LMS"
+msgstr ""
+
+#: includes/integration/woocommerce.php:110
+msgid ""
+"This checkmark ensure that you will sell a specific course via this product."
+msgstr ""
+
+#: includes/miscellaneous.php:23
+msgid "Instructor Dashboard"
+msgstr ""
+
+#: includes/miscellaneous.php:23
+msgid "Student Dashboard"
+msgstr ""
+
+#: includes/miscellaneous.php:37 assets/js/backend.js:382
+msgid "Edit Course"
+msgstr ""
+
+#: includes/miscellaneous.php:106
+msgctxt "slug"
+msgid "uncategorized"
+msgstr ""
+
+#: includes/shortcode/academy-dashboard.php:16
+msgid "Please Sign-In to view dashboard"
+msgstr ""
+
+#: includes/shortcode/academy-login.php:33
+msgid "You have logged in successfully. Redirecting..."
+msgstr ""
+
+#: includes/shortcode/academy-login.php:60
+msgid "Log In into your Account"
+msgstr ""
+
+#: includes/shortcode/academy-login.php:61
+#: includes/shortcode/academy-login.php:62
+msgid "Username or Email Address"
+msgstr ""
+
+#: includes/shortcode/academy-login.php:63
+#: includes/shortcode/academy-login.php:64
+#: templates/shortcode/instructor.php:32 templates/shortcode/instructor.php:33
+#: templates/shortcode/student.php:32 templates/shortcode/student.php:33
+msgid "Password"
+msgstr ""
+
+#: includes/shortcode/academy-login.php:65
+msgid "Remember me"
+msgstr ""
+
+#: includes/shortcode/academy-login.php:66
+msgid "Log In"
+msgstr ""
+
+#: includes/shortcode/academy-login.php:67
+msgid "Reset password"
+msgstr ""
+
+#: includes/traits/courses.php:202 assets/js/backend.js:382
+msgid "Course Enrolled"
+msgstr ""
+
+#: includes/traits/lesson-schema.php:68
+msgid "Current page of the collection."
+msgstr ""
+
+#: includes/traits/lesson-schema.php:76
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+
+#: includes/traits/lesson-schema.php:85
+msgid "Limit results to those matching a string."
+msgstr ""
+
+#: templates/archive/course-none.php:7
+msgid "No Course Found"
+msgstr ""
+
+#: templates/archive/widgets/levels.php:7
+msgid "Level"
+msgstr ""
+
+#: templates/archive/widgets/search.php:8
+msgid "Search Courses..."
+msgstr ""
+
+#: templates/archive/widgets/tags.php:9
+msgid "Tag"
+msgstr ""
+
+#: templates/archive/widgets/type.php:7
+msgid "Type"
+msgstr ""
+
+#: templates/global/login.php:7
+msgid "Please Sign-In to view this section"
+msgstr ""
+
+#: templates/instructor/reviews.php:7 assets/js/frontend.js:1
+msgid "Course:"
+msgstr ""
+
+#: templates/instructor/reviews.php:23
+msgid "Sorry, Review not found."
+msgstr ""
+
+#: templates/instructor/sidebar.php:19 templates/instructor/tab-navbar.php:5
+#: templates/single-course/instructors.php:46
+#: templates/single-course/instructors.php:51 assets/js/backend.js:382
+#: assets/js/frontend.js:1
+msgid "Reviews"
+msgstr ""
+
+#: templates/instructor/sidebar.php:21
+msgid "BIO"
+msgstr ""
+
+#: templates/instructor/sidebar.php:39
+msgid "Social Links"
+msgstr ""
+
+#: templates/loop/content.php:23
+msgid "BY -"
+msgstr ""
+
+#: templates/loop/enroll.php:8
+msgid "Get Enrolled"
+msgstr ""
+
+#: templates/shortcode/instructor.php:16 templates/shortcode/instructor.php:17
+#: templates/shortcode/student.php:16 templates/shortcode/student.php:17
+#: assets/js/frontend.js:1
+msgid "First Name"
+msgstr ""
+
+#: templates/shortcode/instructor.php:20 templates/shortcode/instructor.php:21
+#: templates/shortcode/student.php:20 templates/shortcode/student.php:21
+#: assets/js/frontend.js:1
+msgid "Last Name"
+msgstr ""
+
+#: templates/shortcode/instructor.php:24 templates/shortcode/instructor.php:25
+#: templates/shortcode/student.php:24 templates/shortcode/student.php:25
+msgid "User Name"
+msgstr ""
+
+#: templates/shortcode/instructor.php:28 templates/shortcode/instructor.php:29
+#: templates/shortcode/student.php:28 templates/shortcode/student.php:29
+msgid "E-Mail"
+msgstr ""
+
+#: templates/shortcode/instructor.php:36 templates/shortcode/instructor.php:37
+#: templates/shortcode/student.php:36 templates/shortcode/student.php:37
+msgid "Confirm Password"
+msgstr ""
+
+#: templates/shortcode/instructor.php:41
+msgid "Register as Instructor"
+msgstr ""
+
+#: templates/shortcode/logged-in-instructor.php:7
+msgid "Congratulations! You are now registered as an instructor."
+msgstr ""
+
+#: templates/shortcode/logged-in-instructor.php:9
+msgid "Please wait for admin's to approve you as an instructor."
+msgstr ""
+
+#: templates/shortcode/logged-in-instructor.php:11
+msgid "Start building your first course today."
+msgstr ""
+
+#: templates/shortcode/logged-in-instructor.php:12
+#: templates/shortcode/logged-in-student.php:9
+msgid "Go to Dashboard"
+msgstr ""
+
+#: templates/shortcode/logged-in-student.php:7
+msgid "Congratulations! You are now registered as student."
+msgstr ""
+
+#: templates/shortcode/logged-in-student.php:8
+msgid "Start learning from today"
+msgstr ""
+
+#: templates/shortcode/logged-in-user.php:8
+msgid "You are Logged in as %1$s (%2$sLogout%3$s)"
+msgstr ""
+
+#: templates/shortcode/student.php:41
+msgid "Register as Student"
+msgstr ""
+
+#: templates/single-course-reviews.php:40
+msgid "Older comments"
+msgstr ""
+
+#: templates/single-course-reviews.php:44
+msgid "Newer comments"
+msgstr ""
+
+#: templates/single-course-reviews.php:50
+msgid "Review are closed."
+msgstr ""
+
+#: templates/single-course/benefits.php:11
+msgid "What You'll Learn?"
+msgstr ""
+
+#: templates/single-course/curriculum.php:11
+msgid "Topics for this course"
+msgstr ""
+
+#: templates/single-course/description.php:7
+msgid "Course Overview"
+msgstr ""
+
+#: templates/single-course/enroll/add-to-cart-form.php:13
+msgid "View Cart"
+msgstr ""
+
+#: templates/single-course/enroll/add-to-cart-form.php:24
+msgid "Please make sure that your product exists and valid for this course"
+msgstr ""
+
+#: templates/single-course/enroll/closed-enrollment.php:8
+msgid "100% Booked"
+msgstr ""
+
+#: templates/single-course/enroll/closed-enrollment.php:9
+msgid "Closed for Enrollment"
+msgstr ""
+
+#: templates/single-course/enroll/complete-form.php:13
+msgid "Complete Course"
+msgstr ""
+
+#: templates/single-course/enroll/content.php:30 assets/js/backend.js:382
+msgid "Duration"
+msgstr ""
+
+#: templates/single-course/enroll/content.php:43
+msgid "Lesson"
+msgstr ""
+
+#: templates/single-course/enroll/content.php:56
+msgid "Enrolled"
+msgstr ""
+
+#: templates/single-course/enroll/content.php:69
+msgid "Language"
+msgstr ""
+
+#: templates/single-course/enroll/content.php:82
+msgid "Skill"
+msgstr ""
+
+#: templates/single-course/enroll/content.php:95
+msgid "Last Update"
+msgstr ""
+
+#: templates/single-course/enroll/content.php:111
+msgid "You have been enrolled on %s"
+msgstr ""
+
+#: templates/single-course/enroll/continue.php:7
+msgid "Start Course"
+msgstr ""
+
+#: templates/single-course/enroll/enroll-form.php:11
+msgid "Enroll Now"
+msgstr "Comienza hoy"
+
+#: templates/single-course/enroll/wishlist-and-share.php:17
+msgid "WishListed"
+msgstr "Deseado"
+
+#: templates/single-course/enroll/wishlist-and-share.php:20
+msgid "WishList"
+msgstr "Agregar a Deseados"
+
+#: templates/single-course/enroll/wishlist-and-share.php:23
+msgid "Share"
+msgstr ""
+
+#: templates/single-course/feedback.php:7
+msgid "Student Feedback"
+msgstr ""
+
+#: templates/single-course/feedback.php:19
+msgid "Total"
+msgstr ""
+
+#: templates/single-course/feedback.php:19
+msgid "Ratings"
+msgstr ""
+
+#: templates/single-course/instructors.php:19
+#: templates/single-course/instructors.php:24 assets/js/frontend.js:1
+msgid "profile"
+msgstr ""
+
+#: templates/single-course/instructors.php:28 assets/js/frontend.js:1
+msgid "Instructor"
+msgstr ""
+
+#: templates/single-course/review-form.php:9
+msgid "Add Review"
+msgstr ""
+
+#. translators: %s is product title
+#: templates/single-course/review-form.php:16
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: templates/single-course/review-form.php:20 assets/js/backend.js:382
+#: assets/js/frontend.js:1
+msgid "Submit"
+msgstr ""
+
+#: templates/single-course/review-form.php:28 assets/js/backend.js:382
+msgid "Name"
+msgstr ""
+
+#: templates/single-course/review-form.php:34 assets/js/backend.js:382
+msgid "Email"
+msgstr ""
+
+#. translators: %s opening and closing link tags respectively
+#: templates/single-course/review-form.php:59
+msgid "You must be %1$slogged in%2$s to post a review."
+msgstr ""
+
+#: templates/single-course/review-form.php:63
+msgid "Rate&hellip;"
+msgstr ""
+
+#: templates/single-course/review-form.php:64
+msgid "Perfect"
+msgstr ""
+
+#: templates/single-course/review-form.php:65
+msgid "Good"
+msgstr ""
+
+#: templates/single-course/review-form.php:66
+msgid "Average"
+msgstr ""
+
+#: templates/single-course/review-form.php:67
+msgid "Not that bad"
+msgstr ""
+
+#: templates/single-course/review-form.php:68
+msgid "Very poor"
+msgstr ""
+
+#: templates/single-course/review-form.php:71
+msgid "Enter your feedback"
+msgstr ""
+
+#: templates/single-course/review-meta.php:23
+msgid "Your review is awaiting approval"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Student Enrolment Graph for last 30 days"
+msgstr ""
+
+#: assets/js/backend.js:382 assets/js/frontend.js:1
+msgid "Total Courses"
+msgstr ""
+
+#: assets/js/backend.js:382 assets/js/frontend.js:1
+msgid "Lessons"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Questions"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Delete"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Bulk Actions"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Apply"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Edit"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "View"
+msgstr ""
+
+#: assets/js/backend.js:382 assets/js/frontend.js:1
+msgid "Status"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Are you sure you want to permanently delete selected courses?"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Permalink:"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Change Permalink"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "OK"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Cancel"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Add Existing Lesson"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Search Lesson"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Clear"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "No Lesson Found!"
+msgstr ""
+
+#: assets/js/backend.js:382 assets/js/frontend.js:1
+msgid "Attachment"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Remove Attachment"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Replace Attachment"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Upload Attachment"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Lesson Settings"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Preview Lesson"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid ""
+"If this is a preview lesson, then student can view this lesson content "
+"without taking the course."
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Video Source"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Select Video Source"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Youtube"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Vimeo"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "External URL"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Embedded"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "HTML 5 (mp4)"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Select your preferred video type."
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Video playback time"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Hours"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Minutes"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Seconds"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Featured Image"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Remove Featured Image"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Replace Featured Image"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Set Featured Image"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Edit Lesson"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Update & Close Modal"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Create & Close Modal"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Lesson Image"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Topic Name"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Topic Summary"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Update Topic"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Course Builder"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Add Topic"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Add New Topic"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Select a Product"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Course Type"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Paid (Woocommerce required)"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Select product"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "(When selling the course)"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Sell your product, process by WooCommerce"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Maximum Students"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Maximum number of students who can enroll in this course."
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Students Enrolled"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "How many students have taken this course."
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Difficulty Level"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Experts"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Languages"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Benefits of the course"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Write benefits of this course. (one per line)"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid ""
+"Specify the target audience that will benefit the most from the course. (one "
+"per line)"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Are there any course requirements? (one per line)"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid ""
+"A list of assets you will be providing for the students in this course (One "
+"per line)"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Course Intro Video"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "External"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Title"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Add Title Here"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Content"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Add Conent Here"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Update Announcement"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Create Announcement"
+msgstr ""
+
+#: assets/js/backend.js:382 assets/js/frontend.js:1
+msgid "Announcements"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Add Announcements"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Course Settings"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Intro Video"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Add More Instructor"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "No Instructor Found"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "New Category Name"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Parent Category"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "— Parent Category —"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Create Category"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Add New Category"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Course Category"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Course Tags"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Excerpt"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Publish"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Draft"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Submit for Review"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Add course title here"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Course Image"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Are you sure you want to permanently delete selected Lessons?"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Add lesson title here"
+msgstr ""
+
+#: assets/js/backend.js:382 assets/js/frontend.js:1
+msgid "Question Title"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Question Body"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Author"
+msgstr ""
+
+#: assets/js/backend.js:382 assets/js/frontend.js:1
+msgid "Date"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Action"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Give answer"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Are you sure you want to permanently delete selected Question?"
+msgstr ""
+
+#: assets/js/backend.js:382 assets/js/frontend.js:1
+msgid "Answer"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Go To option"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Total Course"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Are you sure to apply selected action?"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Search Instructor"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "All Instructors"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Requested By"
+msgstr ""
+
+#: assets/js/backend.js:382 assets/js/frontend.js:1
+msgid "Amount"
+msgstr ""
+
+#: assets/js/backend.js:382 assets/js/frontend.js:1
+msgid "Withdrawal Method"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Withdraw Details"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Account Name:"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Account Number:"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Bank Name:"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Bank IBAN:"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Bank SWIFT Code:"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Email Address:"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Physical Address:"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Requested Time"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Are you sure to apply selected actions?"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Approved"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Rejected"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Completed Course"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "No Course Completed Yet"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "All Students"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Select bulk action"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Bulk actions"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "items"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Current Page"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "of"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Description"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Slug"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Count"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "No data found"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "The name is how it appears on your site."
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid ""
+"The “slug” is the URL-friendly version of the name. It is usually all "
+"lowercase and contains only letters, numbers, and hyphens."
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid ""
+"Assign a parent term to create a hierarchy. The term Jazz, for example, "
+"would be the parent of Bebop and Big Band."
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid ""
+"The description is not prominent by default; however, some themes may show it"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Update Category"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Cancel Update"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Update"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Add new"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "category"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Update Tag"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "Add New Tag"
+msgstr ""
+
+#: assets/js/backend.js:382
+msgid "tag"
+msgstr ""
+
+#: assets/js/customizer.js:1
+msgid "Top"
+msgstr ""
+
+#: assets/js/customizer.js:1
+msgid "right"
+msgstr ""
+
+#: assets/js/customizer.js:1
+msgid "bottom"
+msgstr ""
+
+#: assets/js/customizer.js:1
+msgid "left"
+msgstr ""
+
+#: assets/js/customizer.js:1
+msgid "PX"
+msgstr ""
+
+#: assets/js/customizer.js:1
+msgid "EM"
+msgstr ""
+
+#: assets/js/customizer.js:1
+msgid "%"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Enrolled Courses"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Active Courses"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Completed Courses"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Total Students"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Total Earning"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "My Profile"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Name:"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Designation:"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Bio:"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Sorry, You have no Review"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Given"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Received"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Purchase History"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "ID"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Requested On"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "submit"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Request Sending…"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Done!"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Failed"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Withdrawal Request"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Please enter withdrawal amount"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Current Balance: "
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Selected Payment Method: "
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Minimum withdraw amount is"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Current Balance"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "You currently have"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "ready to withdraw"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "The preferred withdrawal method is selected as"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "You haven't selected any withdrawal method"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "You can change your"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "You can set your"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "withdrawal preference"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Withdrawal History"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Current Password"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "New Password"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Confirm New Password"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Upload Cover Photo"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Profile Photo Size: 200x200 pixels"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Designation"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Phone Number"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Bio"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Website URL"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Github URL"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Facebook URL"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Twitter URL"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "linkedIn URL"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Save"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Select a withdraw method"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Paypal"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Min withdraw $"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "E-Check"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Bank Transfer"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Account Name"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Account Number"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Bank Name"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "IBAN"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "BIC / SWIFT"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Your Physical Address"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "We will send you an E-Check to this address directly."
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "PayPal E-Mail Address"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "We will use this email address to send the money to your Paypal account"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Withdraw"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Profile"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Reset Password"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Wishlist"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Withdrawals"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Log Out"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Previous"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Next"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "View Attachment File"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "About Lesson: "
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Lesson content not found!"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Overview"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Go to Course Home"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Complete"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Mark as Complete"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "No Resource Found!"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "No Questions Found."
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Ask your first question."
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Post Your Answer"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Ask a Question"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Question"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "No Topic Found!"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Q & A"
+msgstr ""
+
+#: assets/js/frontend.js:1
+msgid "Topics Not Found!"
+msgstr ""
